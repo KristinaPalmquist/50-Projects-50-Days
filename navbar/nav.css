@@ -1,6 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+nav {
+  height: 100vh;
+  position: relative;
+}
+
 .topnav {
   font-family: 'Roboto', sans-serif;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-color: transparent;
   display: flex;
   flex-direction: column;
@@ -27,6 +36,8 @@
   display: flex;
   width: max-content;
   flex-wrap: no-wrap;
+  z-index: 100;
+  border: 1px solid orange;
 }
 
 .topnav a span {
