@@ -78,28 +78,28 @@ const projects = [
   },
   {
     id: '14',
-    name: 'Progress Steps',
-    path: `../Project_14_-_Progress_Steps`,
+    name: 'Animated Navigation',
+    path: `../Project_14_-_Animated_Navigation`,
   },
   {
     id: '15',
-    name: 'Progress Steps',
-    path: `../Project_15_-_Progress_Steps`,
+    name: 'Incrementing Counter',
+    path: `../Project_15_-_Incrementing_Counter`,
   },
   {
     id: '16',
-    name: 'Progress Steps',
-    path: `../Project_16_-_Progress_Steps`,
+    name: 'Drink Water',
+    path: `../Project_16_-_Drink_Water`,
   },
   {
     id: '17',
-    name: 'Progress Steps',
-    path: `../Project_17_-_Progress_Steps`,
+    name: 'Movie App',
+    path: `../Project_17_-_Movie_App`,
   },
   {
     id: '18',
-    name: 'Progress Steps',
-    path: `../Project_18_-_Progress_Steps`,
+    name: 'Background Slider',
+    path: `../Project_18_-_Background_Slider`,
   },
   {
     id: '19',
@@ -108,13 +108,13 @@ const projects = [
   },
   {
     id: '20',
-    name: 'Progress Steps',
-    path: `../Project_02_-_Progress_Steps`,
+    name: 'Button Ripple Effect',
+    path: `../Project_20_-_Button_Ripple_Effect`,
   },
   {
     id: '21',
-    name: 'Progress Steps',
-    path: `../Project_02_-_Progress_Steps`,
+    name: 'Drag n Drop',
+    path: `../Project_21_-_Drag_n_Drop`,
   },
   {
     id: '22',
@@ -156,21 +156,15 @@ const projects = [
 showProjects(projects);
 
 function showProjects(projs) {
-  // console.log(projects);
   topnav.innerHTML = '';
-  console.log(topnav);
   projs.forEach((project) => {
-    console.log(topnav);
-    // console.log(project);
     const { id, name, path } = project;
-    // console.log(id, name, path);
     const projectEl = document.createElement('a');
     projectEl.href = path;
     projectEl.innerHTML = `
         ${id}
         <span> ${name}</span>
         `;
-    console.log(projectEl);
     topnav.appendChild(projectEl);
   });
 }
