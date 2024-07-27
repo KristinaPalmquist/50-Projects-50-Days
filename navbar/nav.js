@@ -48,33 +48,33 @@ const projects = [
   },
   {
     id: '08',
-    name: 'Progress Steps',
-    path: `../Project_08_-_Progress_Steps`,
+    name: 'Form_Input Wave',
+    path: `../Project_08_-_Form_Input_Wave`,
   },
   {
     id: '09',
-    name: 'Progress Steps',
-    path: `../Project_09_-_Progress_Steps`,
+    name: 'Sound Board',
+    path: `../Project_09_-_Sound_Board`,
   },
   {
     id: '10',
-    name: 'Progress Steps',
-    path: `../Project_02_-_Progress_Steps`,
+    name: 'Dad Jokes',
+    path: `../Project_02_-_Dad_Jokes`,
   },
   {
     id: '11',
-    name: 'Progress Steps',
-    path: `../Project_02_-_Progress_Steps`,
+    name: 'Event KeyCodes',
+    path: `../Project_02_-_Event_KeyCodes`,
   },
   {
     id: '12',
-    name: 'Progress Steps',
-    path: `../Project_12_-_Progress_Steps`,
+    name: 'FAQ',
+    path: `../Project_12_-_FAQ`,
   },
   {
     id: '13',
-    name: 'Progress Steps',
-    path: `../Project_13_-_Progress_Steps`,
+    name: 'Random Choice Picker',
+    path: `../Project_13_-_Random_Choice_Picker`,
   },
   {
     id: '14',
@@ -118,38 +118,38 @@ const projects = [
   },
   {
     id: '22',
-    name: 'Progress Steps',
-    path: `../Project_02_-_Progress_Steps`,
+    name: 'Drawing App',
+    path: `../Project_22_-_Drawing_App`,
   },
   {
     id: '23',
     name: 'Progress Steps',
-    path: `../Project_02_-_Progress_Steps`,
+    path: `../Project_23_-_Progress_Steps`,
   },
   {
     id: '24',
     name: 'Progress Steps',
-    path: `../Project_02_-_Progress_Steps`,
+    path: `../Project_24_-_Progress_Steps`,
   },
   {
     id: '25',
     name: 'Progress Steps',
-    path: `../Project_02_-_Progress_Steps`,
+    path: `../Project_25_-_Progress_Steps`,
   },
   {
     id: '26',
     name: 'Progress Steps',
-    path: `../Project_02_-_Progress_Steps`,
+    path: `../Project_26_-_Progress_Steps`,
   },
   {
     id: '27',
     name: 'Progress Steps',
-    path: `../Project_02_-_Progress_Steps`,
+    path: `../Project_27_-_Progress_Steps`,
   },
   {
     id: '28',
     name: 'Progress Steps',
-    path: `../Project_02_-_Progress_Steps`,
+    path: `../Project_28_-_Progress_Steps`,
   },
 ];
 
