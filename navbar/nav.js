@@ -123,8 +123,8 @@ const projects = [
   },
   {
     id: '23',
-    name: 'Progress Steps',
-    path: `../Project_23_-_Progress_Steps`,
+    name: 'Kinetic Loader',
+    path: `../Project_23_-_Kinetic_Loader`,
   },
   {
     id: '24',
