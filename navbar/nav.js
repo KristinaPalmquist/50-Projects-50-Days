@@ -128,8 +128,8 @@ const projects = [
   },
   {
     id: '24',
-    name: 'Progress Steps',
-    path: `../Project_24_-_Progress_Steps`,
+    name: 'Content Placeholder',
+    path: `../Project_24_-_Content_Placeholder`,
   },
   {
     id: '25',
