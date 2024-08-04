@@ -143,13 +143,123 @@ const projects = [
   },
   {
     id: '27',
-    name: 'Progress Steps',
-    path: `../Project_27_-_Progress_Steps`,
+    name: 'Toast Notification',
+    path: `../Project_27_-_Toast_Notification`,
   },
   {
     id: '28',
     name: 'Progress Steps',
     path: `../Project_28_-_Progress_Steps`,
+  },
+  {
+    id: '29',
+    name: 'Progress Steps',
+    path: `../Project_29_-_Progress_Steps`,
+  },
+  {
+    id: '30',
+    name: 'Progress Steps',
+    path: `../Project_30_-_Progress_Steps`,
+  },
+  {
+    id: '31',
+    name: 'Progress Steps',
+    path: `../Project_31_-_Progress_Steps`,
+  },
+  {
+    id: '32',
+    name: 'Progress Steps',
+    path: `../Project_32_-_Progress_Steps`,
+  },
+  {
+    id: '33',
+    name: 'Progress Steps',
+    path: `../Project_33_-_Progress_Steps`,
+  },
+  {
+    id: '34',
+    name: 'Progress Steps',
+    path: `../Project_34_-_Progress_Steps`,
+  },
+  {
+    id: '35',
+    name: 'Progress Steps',
+    path: `../Project_35_-_Progress_Steps`,
+  },
+  {
+    id: '36',
+    name: 'Progress Steps',
+    path: `../Project_36_-_Progress_Steps`,
+  },
+  {
+    id: '37',
+    name: 'Progress Steps',
+    path: `../Project_37_-_Progress_Steps`,
+  },
+  {
+    id: '38',
+    name: 'Progress Steps',
+    path: `../Project_38_-_Progress_Steps`,
+  },
+  {
+    id: '39',
+    name: 'Progress Steps',
+    path: `../Project_39_-_Progress_Steps`,
+  },
+  {
+    id: '40',
+    name: 'Progress Steps',
+    path: `../Project_40_-_Progress_Steps`,
+  },
+  {
+    id: '41',
+    name: 'Progress Steps',
+    path: `../Project_41_-_Progress_Steps`,
+  },
+  {
+    id: '42',
+    name: 'Progress Steps',
+    path: `../Project_42_-_Progress_Steps`,
+  },
+  {
+    id: '43',
+    name: 'Progress Steps',
+    path: `../Project_43_-_Progress_Steps`,
+  },
+  {
+    id: '44',
+    name: 'Progress Steps',
+    path: `../Project_44_-_Progress_Steps`,
+  },
+  {
+    id: '45',
+    name: 'Progress Steps',
+    path: `../Project_45_-_Progress_Steps`,
+  },
+  {
+    id: '46',
+    name: 'Progress Steps',
+    path: `../Project_46_-_Progress_Steps`,
+  },
+  {
+    id: '47',
+    name: 'Progress Steps',
+    path: `../Project_47_-_Progress_Steps`,
+  },
+  {
+    id: '48',
+    name: 'Progress Steps',
+    path: `../Project_48_-_Progress_Steps`,
+  },
+  {
+    id: '49',
+    name: 'Progress Steps',
+    path: `../Project_49_-_Progress_Steps`,
+  },
+  {
+    id: '50',
+    name: 'Progress Steps',
+    path: `../Project_50_-_Progress_Steps`,
   },
 ];
 
