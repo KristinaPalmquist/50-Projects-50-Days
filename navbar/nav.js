@@ -133,13 +133,13 @@ const projects = [
   },
   {
     id: '25',
-    name: 'Progress Steps',
-    path: `../Project_25_-_Progress_Steps`,
+    name: 'Sticky Navigation',
+    path: `../Project_25_-_Sticky_Navigation`,
   },
   {
     id: '26',
-    name: 'Progress Steps',
-    path: `../Project_26_-_Progress_Steps`,
+    name: 'Vertical Slider',
+    path: `../Project_26_-_Vertical_Slider`,
   },
   {
     id: '27',
