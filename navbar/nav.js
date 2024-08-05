@@ -156,8 +156,8 @@ const projects = [
   },
   {
     id: '29',
-    name: 'Progress Steps',
-    path: `/Project_29_-_Progress_Steps`,
+    name: 'Double Click Heart',
+    path: `/Project_29_-_Double_Click_Heart`,
   },
   {
     id: '30',
