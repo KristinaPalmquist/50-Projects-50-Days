@@ -166,8 +166,8 @@ const projects = [
   },
   {
     id: '31',
-    name: 'Progress Steps',
-    path: `/Project_31_-_Progress_Steps`,
+    name: 'Password Generator',
+    path: `/Project_31_-_Password_Generator`,
   },
   {
     id: '32',
