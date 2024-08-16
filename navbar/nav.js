@@ -161,8 +161,8 @@ const projects = [
   },
   {
     id: '30',
-    name: 'Progress Steps',
-    path: `/Project_30_-_Progress_Steps`,
+    name: 'Auto Text Effect',
+    path: `/Project_30_-_Auto_Text_Effect`,
   },
   {
     id: '31',
