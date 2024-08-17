@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+:root {
+  --bgColor: #7bdaf3;
+  --noteBgColor: #9ec862;
+  --warnBgColor: #fe894f;
+  --white: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  /* overflow: hidden; */
+  margin: 0;
+  background-color: var(--bgColor);
+}
+
+.navbar {
+  position: relative;
+  z-index: 100;
+  height: 200vh;
+  width: min-content;
+}
+
+.content {
+  position: absolute;
+  font-family: 'Poppins', sans-serif;
+  top: 0;
+  left: 0px;
+  width: 100vw;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  left: 72px;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100vw-100px);
+  margin: 0;
+  padding-top: 3rem;
+}
+
+.add,
+.clear {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: var(--noteBgColor);
+  color: var(--white);
+  border: none;
+  border-radius: 3px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  z-index: 150;
+}
+
+.clear {
+  background-color: var(--warnBgColor);
+  right: 8rem;
+}
+
+.note {
+  background-color: var(--white);
+  box-shadow: 0 0 10px 4px rgba(0, 0, 0, 0.1);
+  margin: 30px 20px;
+  height: 400px;
+  width: 400px;
+  z-index: 150;
+}
+
+.note .tools {
+  background-color: var(--noteBgColor);
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.note .tools button {
+  background-color: transparent;
+  border: none;
+  color: var(--white);
+  cursor: pointer;
+  font-size: 1rem;
+  margin-left: 0.5rem;
+}
+
+.note textarea {
+  outline: none;
+  font-family: inherit;
+  font-size: 1.2rem;
+  border: none;
+  height: 400px;
+  width: 100%;
+  padding: 20px;
+}
+
+.main {
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}

@@ -171,13 +171,13 @@ const projects = [
   },
   {
     id: '32',
-    name: 'Progress Steps',
-    path: `/Project_32_-_Progress_Steps`,
+    name: 'Good, Cheap, Fast',
+    path: `/Project_32_-_Good,_Cheap,_Fast`,
   },
   {
     id: '33',
-    name: 'Progress Steps',
-    path: `/Project_33_-_Progress_Steps`,
+    name: 'Notes App',
+    path: `/Project_33_-_Notes_App`,
   },
   {
     id: '34',
