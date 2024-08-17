@@ -181,8 +181,8 @@ const projects = [
   },
   {
     id: '34',
-    name: 'Progress Steps',
-    path: `/Project_34_-_Progress_Steps`,
+    name: 'Animated Countdown',
+    path: `/Project_34_-_Animated_Countdown`,
   },
   {
     id: '35',
