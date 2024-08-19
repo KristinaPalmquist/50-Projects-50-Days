@@ -196,8 +196,8 @@ const projects = [
   },
   {
     id: '37',
-    name: 'Progress Steps',
-    path: `/Project_37_-_Progress_Steps`,
+    name: 'Pokedex ',
+    path: `/Project_37_-_Pokedex`,
   },
   {
     id: '38',
