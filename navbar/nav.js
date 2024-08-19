@@ -191,8 +191,8 @@ const projects = [
   },
   {
     id: '36',
-    name: 'Progress Steps',
-    path: `/Project_36_-_Progress_Steps`,
+    name: 'Hover Board',
+    path: `/Project_36_-_Hover_Board`,
   },
   {
     id: '37',
