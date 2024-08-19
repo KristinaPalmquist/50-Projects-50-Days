@@ -186,8 +186,8 @@ const projects = [
   },
   {
     id: '35',
-    name: 'Progress Steps',
-    path: `/Project_35_-_Progress_Steps`,
+    name: 'Image Carousel',
+    path: `/Project_35_-_Image_Carousel`,
   },
   {
     id: '36',
