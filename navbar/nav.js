@@ -201,8 +201,8 @@ const projects = [
   },
   {
     id: '38',
-    name: 'Progress Steps',
-    path: `/Project_38_-_Progress_Steps`,
+    name: 'Mobile Tab Navigation',
+    path: `/Project_38_-_Mobile_Tab_Navigation`,
   },
   {
     id: '39',
