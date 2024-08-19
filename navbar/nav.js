@@ -206,8 +206,8 @@ const projects = [
   },
   {
     id: '39',
-    name: 'Progress Steps',
-    path: `/Project_39_-_Progress_Steps`,
+    name: 'Password Strength Background',
+    path: `/Project_39_-_Password_Strength_Background`,
   },
   {
     id: '40',
