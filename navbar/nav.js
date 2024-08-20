@@ -216,8 +216,8 @@ const projects = [
   },
   {
     id: '41',
-    name: 'Progress Steps',
-    path: `/Project_41_-_Progress_Steps`,
+    name: 'Verify Account',
+    path: `/Project_41_-_Verify_Account`,
   },
   {
     id: '42',
