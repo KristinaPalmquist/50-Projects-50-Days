@@ -211,8 +211,8 @@ const projects = [
   },
   {
     id: '40',
-    name: 'Progress Steps',
-    path: `/Project_40_-_Progress_Steps`,
+    name: '3D Boxes Background',
+    path: `/Project_40_-_3D_Boxes_Background`,
   },
   {
     id: '41',
