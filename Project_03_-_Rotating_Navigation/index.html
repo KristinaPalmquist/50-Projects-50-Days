@@ -15,62 +15,73 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../navbar/nav.css" />
     <title>Rotating Navigation</title>
   </head>
   <body>
-    <embed type="text/html" src="../navbar/nav.html" />
-    <div class="container">
-      <div class="circle-container">
-        <div class="circle">
-          <button id="close">
-            <i class="fas fa-times"></i>
-          </button>
-          <button id="open">
-            <i class="fas fa-bars"></i>
-          </button>
-        </div>
-      </div>
-      <div class="content">
-        <h1>Amazing Article</h1>
-        <small>Florin Pop</small>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-          dolorum deserunt distinctio corrupti asperiores dignissimos doloribus
-          facere, architecto eaque excepturi blanditiis nobis ipsa atque ipsum
-          cumque sunt eos suscipit nulla amet doloremque recusandae, sequi iste
-          harum minus. Modi nisi inventore cumque, nulla deleniti itaque quos!
-          Inventore odio labore explicabo quibusdam totam sequi veniam unde
-          ipsam, obcaecati molestiae eum. Obcaecati, quae? Asperiores blanditiis
-          facilis rem voluptatibus quasi quaerat expedita, magni illum,
-          molestias exercitationem eum odio, nihil soluta pariatur maxime.
-          Placeat facilis voluptate veritatis nesciunt? Reprehenderit, nihil
-          mollitia magni dignissimos facere tempore maiores dolor voluptate iure
-          amet doloremque consequuntur repudiandae ea quaerat?
-        </p>
-        <h3>My Dog</h3>
-
-        <img src="./assets/dog-5482171_1280.jpg" alt="dog" />
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repudiandae,
-          sapiente tempora perferendis nobis soluta quo, ratione vitae commodi
-          delectus unde quas eligendi. Sint, optio sapiente! Sunt autem harum
-          sed, repellat eligendi unde voluptates? Nesciunt, cumque aspernatur
-          nulla atque error inventore eveniet blanditiis deleniti obcaecati
-          suscipit ipsa incidunt nostrum quo ea sint tenetur dolorum aliquam eos
-          vel. Inventore, placeat quibusdam vitae dignissimos nemo quasi sit
-          soluta enim recusandae distinctio hic obcaecati doloremque corporis
-          tenetur officia laborum!
-        </p>
-      </div>
-    </div>
-    <nav>
-      <ul>
-        <li><i class="fas fa-home"></i> Home</li>
-        <li><i class="fas fa-user-alt"></i> About</li>
-        <li><i class="fas fa-envelope"></i> Contact</li>
-      </ul>
+    <nav id="nav">
+      <div id="topnav"></div>
     </nav>
 
+    <div class="content">
+      <main>
+        <div class="container">
+          <div class="circle-container">
+            <div class="circle">
+              <button id="close">
+                <i class="fas fa-times"></i>
+              </button>
+              <button id="open">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+          </div>
+          <div class="content">
+            <h1>Amazing Article</h1>
+            <small>Florin Pop</small>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              dolorum deserunt distinctio corrupti asperiores dignissimos
+              doloribus facere, architecto eaque excepturi blanditiis nobis ipsa
+              atque ipsum cumque sunt eos suscipit nulla amet doloremque
+              recusandae, sequi iste harum minus. Modi nisi inventore cumque,
+              nulla deleniti itaque quos! Inventore odio labore explicabo
+              quibusdam totam sequi veniam unde ipsam, obcaecati molestiae eum.
+              Obcaecati, quae? Asperiores blanditiis facilis rem voluptatibus
+              quasi quaerat expedita, magni illum, molestias exercitationem eum
+              odio, nihil soluta pariatur maxime. Placeat facilis voluptate
+              veritatis nesciunt? Reprehenderit, nihil mollitia magni
+              dignissimos facere tempore maiores dolor voluptate iure amet
+              doloremque consequuntur repudiandae ea quaerat?
+            </p>
+            <h3>My Dog</h3>
+
+            <img src="./assets/dog-5482171_1280.jpg" alt="dog" />
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Repudiandae, sapiente tempora perferendis nobis soluta quo,
+              ratione vitae commodi delectus unde quas eligendi. Sint, optio
+              sapiente! Sunt autem harum sed, repellat eligendi unde voluptates?
+              Nesciunt, cumque aspernatur nulla atque error inventore eveniet
+              blanditiis deleniti obcaecati suscipit ipsa incidunt nostrum quo
+              ea sint tenetur dolorum aliquam eos vel. Inventore, placeat
+              quibusdam vitae dignissimos nemo quasi sit soluta enim recusandae
+              distinctio hic obcaecati doloremque corporis tenetur officia
+              laborum!
+            </p>
+          </div>
+        </div>
+        <nav class="page-nav">
+          <ul>
+            <li><i class="fas fa-home"></i> Home</li>
+            <li><i class="fas fa-user-alt"></i> About</li>
+            <li><i class="fas fa-envelope"></i> Contact</li>
+          </ul>
+        </nav>
+      </main>
+    </div>
+
+    <script src="../navbar/nav.js"></script>
     <script src="script.js"></script>
   </body>
 </html>

@@ -1,17 +1,4 @@
-// fetch('nav.html')
-//   .then((res) => res.text())
-//   .then((text) => {
-//     let oldElem = document.querySelector('script#replace_with_navbar');
-//     let newElem = document.createElement('div');
-//     newElem.innerHTML = text;
-//     oldElem.parentNode.replaceChild(newElem, oldElem);
-//   });
-
-const topnav = document.querySelector('.topnav');
-
-function getRootUrl() {
-  return window.location.origin;
-}
+const topnav = document.getElementById('topnav');
 
 const projects = [
   {
@@ -62,12 +49,12 @@ const projects = [
   {
     id: '10',
     name: 'Dad Jokes',
-    path: `/Project_02_-_Dad_Jokes`,
+    path: `/Project_10_-_Dad_Jokes`,
   },
   {
     id: '11',
     name: 'Event KeyCodes',
-    path: `/Project_02_-_Event_KeyCodes`,
+    path: `/Project_11_-_Event_KeyCodes`,
   },
   {
     id: '12',
@@ -221,8 +208,8 @@ const projects = [
   },
   {
     id: '42',
-    name: 'Progress Steps',
-    path: `/Project_42_-_Progress_Steps`,
+    name: 'Live User Filter',
+    path: `/Project_42_-_Live_User_Filter`,
   },
   {
     id: '43',
@@ -272,14 +259,15 @@ function showProjects(projs) {
   // console.log('topnav element: ', topnav);
   if (topnav) {
     topnav.innerHTML = '';
-    const rootUrl = getRootUrl();
+    // const rootUrl = getRootUrl();
     // console.log(rootUrl);
     projs.forEach((project) => {
       const { id, name, path } = project;
       const projectEl = document.createElement('a');
 
       // console.log(rootUrl + path);
-      projectEl.href = rootUrl + path;
+      // projectEl.href = rootUrl + path;
+      projectEl.href = path;
       projectEl.innerHTML = `
         ${id}
         <span> ${name}</span>
