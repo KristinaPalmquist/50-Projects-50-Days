@@ -213,8 +213,8 @@ const projects = [
   },
   {
     id: '43',
-    name: 'Progress Steps',
-    path: `/Project_43_-_Progress_Steps`,
+    name: 'Survey UI Design',
+    path: `/Project_43_-_Survey_UI_Design`,
   },
   {
     id: '44',
