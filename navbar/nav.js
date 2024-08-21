@@ -218,8 +218,8 @@ const projects = [
   },
   {
     id: '44',
-    name: 'Progress Steps',
-    path: `/Project_44_-_Progress_Steps`,
+    name: 'Custom Range Slider',
+    path: `/Project_44_-_Custom_Range_Slider`,
   },
   {
     id: '45',
