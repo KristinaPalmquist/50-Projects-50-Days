@@ -15,26 +15,37 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../navbar/nav.css" />
     <title>Sound Board</title>
   </head>
   <body>
-    <audio id="clubAlarma" src="./sounds/club-alarma-145490.mp3"></audio>
-    <audio
-      id="darkUnderworld"
-      src="./sounds/dark-underworld-144813.mp3"
-    ></audio>
-    <audio
-      id="happyBirthday"
-      src="./sounds/happy-birthday-in-english-male-15023.mp3"
-    ></audio>
-    <audio
-      id="interfaceButton"
-      src="./sounds/interface-button-154180.mp3"
-    ></audio>
-    <audio id="mouseClick" src="./sounds/mouse-click-153941.mp3"></audio>
-    <audio id="phoneCall" src="./sounds/phone-calling-153844.mp3"></audio>
+    <nav id="nav">
+      <div id="topnav"></div>
+    </nav>
 
-    <div id="buttons"></div>
+    <div class="content">
+      <main>
+        <audio id="clubAlarma" src="./sounds/club-alarma-145490.mp3"></audio>
+        <audio
+          id="darkUnderworld"
+          src="./sounds/dark-underworld-144813.mp3"
+        ></audio>
+        <audio
+          id="happyBirthday"
+          src="./sounds/happy-birthday-in-english-male-15023.mp3"
+        ></audio>
+        <audio
+          id="interfaceButton"
+          src="./sounds/interface-button-154180.mp3"
+        ></audio>
+        <audio id="mouseClick" src="./sounds/mouse-click-153941.mp3"></audio>
+        <audio id="phoneCall" src="./sounds/phone-calling-153844.mp3"></audio>
+
+        <div id="buttons"></div>
+      </main>
+    </div>
+
+    <script src="../navbar/nav.js"></script>
 
     <script src="script.js"></script>
   </body>

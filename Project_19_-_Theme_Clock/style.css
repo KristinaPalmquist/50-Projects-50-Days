@@ -24,11 +24,35 @@ html.dark {
 }
 
 body {
+  height: 100vh;
+  /* overflow: hidden; */
+  margin: 0;
+}
+
+#nav {
+  position: relative;
+  z-index: 100;
+  height: 200vh;
+  width: 100vw;
+}
+
+.content {
+  position: absolute;
   font-family: 'Heebo', sans-serif;
+  top: 0;
+  left: 0px;
+  width: 100vw;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  left: 0px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  width: 100vw;
   overflow: hidden;
   margin: 0;
 }
@@ -52,6 +76,7 @@ body {
   position: absolute;
   top: 100px;
   cursor: pointer;
+  z-index: 102;
 }
 
 .toggle:focus {

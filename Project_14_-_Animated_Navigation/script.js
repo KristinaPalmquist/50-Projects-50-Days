@@ -1,5 +1,5 @@
 const toggle = document.getElementById('toggle');
-const nav = document.getElementById('nav');
+const nav = document.getElementById('page-nav');
 
 toggle.addEventListener('click', () => {
   nav.classList.toggle('active');

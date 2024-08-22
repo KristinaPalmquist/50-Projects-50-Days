@@ -5,58 +5,45 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center; */
+  background-color: steelblue;
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
 }
 
-.navbar {
+#nav {
   position: relative;
   z-index: 100;
-  height: 100vh;
-  width: 60px;
-  overflow-y: scroll;
-  /* width: 100vw; */
-  /* scrollbar-color: transparent; */
-  padding-right: 17px; /* Increase/decrease this value for cross-browser compatibility */
-  box-sizing: content-box; /* So the width will be 100% + 17px */
-}
-
-.navbar:hover {
+  height: 200vh;
   width: max-content;
-  z-index: 300;
 }
 
 .content {
-  background-color: steelblue;
   position: absolute;
+  font-family: 'Roboto', sans-serif;
   top: 0;
-  left: 0;
+  left: 0px;
+  height: 100vh;
   width: 100vw;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   overflow: hidden;
   z-index: 1;
-}
-
-.content:hover {
-  z-index: 200;
 }
 
 main {
   position: absolute;
   top: 0;
-  /* left: 65px; */
   left: 50vw;
-  width: 100vw;
+  width: max-content;
   height: 100vh;
+  overflow: hidden;
+  margin: 0;
+  transform: translateX(-50%);
   z-index: 50;
 }
 

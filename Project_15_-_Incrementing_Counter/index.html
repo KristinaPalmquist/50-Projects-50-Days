@@ -15,26 +15,41 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../navbar/nav.css" />
     <title>Increment Counter</title>
   </head>
   <body>
-    <div class="counter-container">
-      <i class="fab fa-twitter fa-3x"></i>
-      <div class="counter" data-target="12000"></div>
-      <span>Twitter Followers</span>
-    </div>
+    <body>
+      <nav id="nav">
+        <div id="topnav"></div>
+      </nav>
+      <div class="content">
+        <main>
+          <div class="counter-container">
+            <i class="fab fa-twitter fa-3x"></i>
+            <div class="counter" data-target="12000"></div>
+            <span>Twitter Followers</span>
+          </div>
+      
+          <div class="counter-container">
+            <i class="fab fa-youtube fa-3x"></i>
+            <div class="counter" data-target="5000"></div>
+            <span>YouTube Subscribers</span>
+          </div>
+      
+          <div class="counter-container">
+            <i class="fab fa-facebook fa-3x"></i>
+            <div class="counter" data-target="7500"></div>
+            <span>Facebook Fans</span>
+          </div>
+        </main>
+      </div>
+  
+      <script src="../navbar/nav.js"></script>
 
-    <div class="counter-container">
-      <i class="fab fa-youtube fa-3x"></i>
-      <div class="counter" data-target="5000"></div>
-      <span>YouTube Subscribers</span>
-    </div>
 
-    <div class="counter-container">
-      <i class="fab fa-facebook fa-3x"></i>
-      <div class="counter" data-target="7500"></div>
-      <span>Facebook Fans</span>
-    </div>
+
+   
     <script src="script.js"></script>
   </body>
 </html>

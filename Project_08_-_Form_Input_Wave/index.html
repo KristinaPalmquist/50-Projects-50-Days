@@ -15,27 +15,37 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../navbar/nav.css" />
     <title>Form Input Wave</title>
   </head>
   <body>
-    <div class="container">
-      <h1>Please Login</h1>
-      <form>
-        <div class="form-control">
-          <input type="text" required />
-          <label>Email</label>
+    <nav id="nav">
+      <div id="topnav"></div>
+    </nav>
+    <div class="content">
+      <main>
+        <div class="container">
+          <h1>Please Login</h1>
+          <form>
+            <div class="form-control">
+              <input type="text" required />
+              <label>Email</label>
+            </div>
+
+            <div class="form-control">
+              <input type="password" required />
+              <label>Password</label>
+            </div>
+
+            <button class="btn">Login</button>
+
+            <p class="text">Don't have an account? <a href="#">Register</a></p>
+          </form>
         </div>
-
-        <div class="form-control">
-          <input type="password" required />
-          <label>Password</label>
-        </div>
-
-        <button class="btn">Login</button>
-
-        <p class="text">Don't have an account? <a href="#">Register</a></p>
-      </form>
+      </main>
     </div>
+
+    <script src="../navbar/nav.js"></script>
 
     <script src="script.js"></script>
   </body>

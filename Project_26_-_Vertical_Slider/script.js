@@ -1,3 +1,5 @@
+const body = document.querySelector('body');
+
 const sliderContainer = document.querySelector('.slider-container');
 const slideRight = document.querySelector('.right-slide');
 const slideLeft = document.querySelector('.left-slide');
@@ -7,10 +9,16 @@ const slidesLength = slideRight.querySelectorAll('div').length;
 
 let activeSlideIndex = 0;
 
+const colors = ['#ffb866', '#252e33', '#2a86ba', '#fd3555'];
+
+let colorsIdx = 0;
+
 slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
 
 upButton.addEventListener('click', () => changeSlide('up'));
 downButton.addEventListener('click', () => changeSlide('down'));
+
+setBackgroundColor();
 
 const changeSlide = (direction) => {
   const sliderHeight = sliderContainer.clientHeight;
@@ -32,4 +40,15 @@ const changeSlide = (direction) => {
   slideLeft.style.transform = `translateY(${
     activeSlideIndex * sliderHeight
   }px)`;
+  setBackgroundColor(direction);
 };
+
+function setBackgroundColor(direction = '') {
+  if (direction === 'up') {
+    colorsIdx++;
+  } else if (direction === 'down') {
+    colorsIdx--;
+  }
+
+  body.style.backgroundColor = colors[colorsIdx];
+}

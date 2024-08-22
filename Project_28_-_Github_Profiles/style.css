@@ -11,26 +11,22 @@
 
 body {
   height: 100vh;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin: 0;
   background-color: var(--bgColor);
-  color: #fff;
 }
 
-.navbar {
+#nav {
   position: relative;
   z-index: 100;
   height: 200vh;
-  width: 100vw;
+  width: max-content;
 }
 
 .content {
   position: absolute;
   font-family: 'Poppins', sans-serif;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  color: #fff;
   top: 0;
   left: 0px;
   width: 100vw;
@@ -39,7 +35,7 @@ body {
 main {
   position: absolute;
   top: 0;
-  left: 72px;
+  left: 0;
   width: 100vw;
   height: 100vh;
   display: flex;

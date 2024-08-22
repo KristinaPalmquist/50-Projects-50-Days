@@ -5,6 +5,20 @@
 }
 
 body {
+  background-color: #5290f9;
+  height: max-content;
+  /* overflow: hidden; */
+  margin: 0;
+}
+
+#nav {
+  position: relative;
+  z-index: 100;
+  height: 200vh;
+  width: 100vw;
+}
+
+.content {
   background-color: #eafbff;
   background-image: linear-gradient(
     to bottom,
@@ -13,15 +27,26 @@ body {
     #5290f9 50%,
     #5290f9 100%
   );
+  height: 100vh;
+  position: absolute;
   font-family: 'Muli', sans-serif;
+  top: 0;
+  left: 0px;
+  width: 100vw;
+}
+
+main {
+  position: absolute;
+  top: 0;
+  left: 72px;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
-  margin: 0;
+  width: 100vw;
 }
 
-nav {
+nav#page-nav {
   background-color: #fff;
   padding: 20px;
   width: 80px;
@@ -32,13 +57,15 @@ nav {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   transition: width 0.6s linear;
   overflow-x: hidden;
+  position: relative;
+  z-index: 121;
 }
 
-nav.active {
+nav#page-nav.active {
   width: 350px;
 }
 
-nav ul {
+nav#page-nav ul {
   display: flex;
   list-style-type: none;
   padding: 0;
@@ -47,22 +74,22 @@ nav ul {
   transition: width 0.6s linear;
 }
 
-nav.active ul {
+nav#page-nav.active ul {
   width: 100%;
 }
 
-nav ul li {
+nav#page-nav ul li {
   transform: rotateY(0deg);
   opacity: 0;
   transition: transform 0.6s linear, opacity 0.6s linear;
 }
 
-nav.active ul li {
+nav#page-nav.active ul li {
   opacity: 1;
   transform: rotateY(360deg);
 }
 
-nav ul a {
+nav#page-nav ul a {
   position: relative;
   color: #000;
   text-decoration: none;
@@ -98,10 +125,10 @@ nav ul a {
   bottom: 10px;
 }
 
-nav.active .icon .line1 {
+nav#page-nav.active .icon .line1 {
   transform: rotate(-765deg) translateY(5.5px);
 }
 
-nav.active .icon .line2 {
+nav#page-nav.active .icon .line2 {
   transform: rotate(765deg) translateY(-5.5px);
 }

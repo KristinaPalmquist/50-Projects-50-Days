@@ -15,15 +15,26 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="../navbar/nav.css" />
     <title>Movie App</title>
   </head>
   <body>
-    <header>
-      <form id="form">
-        <input type="text" class="search" id="search" placeholder="Search" />
-      </form>
-    </header>
-    <main id="main"></main>
+    <nav id="nav">
+      <div id="topnav"></div>
+    </nav>
+    <div class="content">
+      <!-- <main> -->
+      <header>
+        <form id="form">
+          <input type="text" class="search" id="search" placeholder="Search" />
+        </form>
+      </header>
+      <main id="main"></main>
+      <!-- </main> -->
+    </div>
+
+    <script src="../navbar/nav.js"></script>
+
     <script src="script.js"></script>
   </body>
 </html>
