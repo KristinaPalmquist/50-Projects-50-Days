@@ -223,8 +223,8 @@ const projects = [
   },
   {
     id: '45',
-    name: 'Progress Steps',
-    path: `/Project_45_-_Progress_Steps`,
+    name: 'Netflix Mobile Navigation',
+    path: `/Project_45_-_Netflix_Mobile_Navigation`,
   },
   {
     id: '46',
