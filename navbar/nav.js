@@ -233,8 +233,8 @@ const projects = [
   },
   {
     id: '47',
-    name: 'Progress Steps',
-    path: `/Project_47_-_Progress_Steps`,
+    name: 'Testimonial Box',
+    path: `/Project_47_-_Testimonial_Box`,
   },
   {
     id: '48',
