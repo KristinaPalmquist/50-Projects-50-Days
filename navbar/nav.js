@@ -238,8 +238,8 @@ const projects = [
   },
   {
     id: '48',
-    name: 'Progress Steps',
-    path: `/Project_48_-_Progress_Steps`,
+    name: 'Random Image Feed',
+    path: `/Project_48_-_Random_Image_Feed`,
   },
   {
     id: '49',
