@@ -248,8 +248,8 @@ const projects = [
   },
   {
     id: '50',
-    name: 'Progress Steps',
-    path: `/Project_50_-_Progress_Steps`,
+    name: 'Catch The Insect',
+    path: `/Project_50_-_Catch_The_Insect`,
   },
 ];
 
