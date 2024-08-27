@@ -1,13 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+:root {
+  --bgColor: #333;
+  --pageBgColor: #fafafa;
+  --white: #fff;
+  --circleColor: #ff7979;
+  --textColor: #222;
+  --paragraphColor: #333;
+  --smallColor: #555;
+}
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  background-color: #333;
-  color: #222;
-  /* overflow-x: hidden; */
+  background-color: var(--bgColor);
+  color: var(--textColor);
   margin: 0;
 }
 
@@ -23,24 +32,25 @@ body {
   position: absolute;
   font-family: 'Lato', sans-serif;
   top: 0;
-  left: 0px;
+  left: 0;
   width: 100vw;
 }
 
 main {
   position: absolute;
   top: 0;
-  left: 72px;
+  left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: min-content;
+  min-height: 100vh;
   width: 100vw;
 }
 
 .container {
-  background-color: #fafafa;
+  background-color: var(--pageBgColor);
   transform-origin: top left;
   transition: transform 0.5s linear;
   width: 100vw;
@@ -59,13 +69,12 @@ main {
 }
 
 .circle {
-  background-color: #ff7979;
+  background-color: var(--circleColor);
   height: 200px;
   width: 200px;
   border-radius: 50%;
   position: relative;
   transition: transform 0.5s linear;
-  /* z-index: 125; */
 }
 
 .container.show-nav .circle {
@@ -81,7 +90,7 @@ main {
   background: transparent;
   border: 0;
   font-size: 26px;
-  color: #fff;
+  color: var(--white);
 }
 
 .circle button:focus {
@@ -108,7 +117,7 @@ main {
 .page-nav {
   position: fixed;
   bottom: 40px;
-  left: 0;
+  left: 40px;
 }
 
 .page-nav ul {
@@ -118,7 +127,7 @@ main {
 
 .page-nav ul li {
   text-transform: uppercase;
-  color: #fff;
+  color: var(--white);
   margin: 40px 0;
   transform: translate(-100%);
   transition: transform 0.4s ease-in;
@@ -139,25 +148,25 @@ main {
   transform: translate(-200%);
 }
 
-.content img {
+.page-content img {
   max-width: 100%;
 }
 
-.content {
+.page-content {
   max-width: 1000px;
   margin: 50px auto;
 }
 
-.content h1 {
+.page-content h1 {
   margin: 0;
 }
 
-.content small {
-  color: #555;
+.page-content small {
+  color: var(--smallColor);
   font-style: italic;
 }
 
-.content p {
-  color: #333;
+.page-content p {
+  color: var(--paragraphColor);
   line-height: 1.5;
 }

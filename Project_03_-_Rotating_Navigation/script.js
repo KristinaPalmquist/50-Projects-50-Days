@@ -6,10 +6,8 @@ console.log('Hello');
 
 open.addEventListener('click', () => {
   container.classList.add('show-nav');
-  console.log('Hello open');
 });
 
 close.addEventListener('click', () => {
   container.classList.remove('show-nav');
-  console.log('Hello close');
 });
