@@ -11,36 +11,28 @@ body {
   margin: 0;
 }
 
-#nav {
-  position: relative;
-  z-index: 100;
-  height: 200vh;
-  width: 100vw;
-}
-
 .content {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 0;
-  left: 0px;
+  left: 0;
   width: 100vw;
 }
 
 main {
   position: absolute;
   top: 0;
-  left: 72px;
+  left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
 }
 
 canvas {
   border: 2px solid steelblue;
-  z-index: 120;
 }
 
 .toolbox {

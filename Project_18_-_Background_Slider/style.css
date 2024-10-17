@@ -13,25 +13,20 @@ body {
   transition: 0.4s;
 }
 
-#nav {
-  position: relative;
-  z-index: 100;
-  height: 200vh;
-  width: 100vw;
-}
 
 .content {
   position: absolute;
   font-family: 'Roboto', sans-serif;
   top: 0;
-  left: 0px;
+  left: 0;
   width: 100vw;
+  z-index: 1;
 }
 
 main {
   position: absolute;
   top: 0;
-  left: 0px;
+  left: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,19 +58,21 @@ body::before {
   position: relative;
   overflow: hidden;
   z-index: 130;
+  background-repeat: no-repeat;
 }
 
 .slide {
+
   opacity: 0;
   height: 100vh;
   width: 100vw;
   background-position: center center;
   background-size: cover;
+  background-repeat: no-repeat;
   position: absolute;
   top: -15vh;
   left: -15vw;
   transition: 0.4s ease;
-  /* z-index: 1; */
 }
 
 .slide.active {

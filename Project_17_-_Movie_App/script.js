@@ -15,7 +15,7 @@ fetch('./assets/apiKey.json')
   .catch((error) => console.error('Unable to fetch data:', error));
 
 const SEARCH_API = `
-  https://api.themoviedb.org/3/search/movie?api_key=${key}"`;
+  https://api.themoviedb.org/3/search/movie?api_key=${key}`;
 
 const main = document.getElementById('main');
 const form = document.getElementById('form');
@@ -70,8 +70,7 @@ form.addEventListener('submit', (e) => {
   const searchTerm = search.value;
 
   if (searchTerm && searchTerm != '') {
-    getMovies(SEARCH_API + searchTerm);
-    console.log(getMovies(SEARCH_API + searchTerm));
+    getMovies(SEARCH_API + key + searchTerm);
     search.value = '';
   } else {
     window.location.reload();

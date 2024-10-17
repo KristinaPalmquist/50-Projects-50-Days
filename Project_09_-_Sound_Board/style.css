@@ -4,19 +4,11 @@ d@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&disp
   box-sizing: border-box;
 }
 
-
 body {
   background-color: rgb(161, 100, 223);
   height: 100vh;
   /* overflow: hidden; */
   margin: 0;
-}
-
-#nav {
-  position: relative;
-  z-index: 100;
-  height: 200vh;
-  width: 100vw;
 }
 
 .content {
